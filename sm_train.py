@@ -27,7 +27,7 @@ estimator = PyTorch(entry_point='mnist.py',
                     framework_version='1.4.0',
                     py_version='py3',
                     # train_instance_count=2,
-                    train_instance_type='ml.c4.xlarge',
+                    # train_instance_type='ml.c4.xlarge',
                     metric_definitions=metric_definitions,
                     hyperparameters={
                         'epochs': 1,
