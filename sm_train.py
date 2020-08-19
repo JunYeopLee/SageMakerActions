@@ -24,7 +24,7 @@ metric_definitions=[
 estimator = PyTorch(entry_point='mnist.py',
                     source_dir='code',
                     role=role,
-                    framework_version='1.4.0',
+                    framework_version='1.6.0',
                     py_version='py3',
                     instance_count=2,
                     instance_type='ml.c4.xlarge',
