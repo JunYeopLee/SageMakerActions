@@ -28,6 +28,7 @@ estimator = PyTorch(entry_point='mnist.py',
                     py_version='py3',
                     instance_count=2,
                     instance_type='ml.c4.xlarge',
+                    use_spot_instances=True,
                     metric_definitions=metric_definitions,
                     hyperparameters={
                         'epochs': 1,
