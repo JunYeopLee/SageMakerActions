@@ -29,7 +29,7 @@ estimator = PyTorch(entry_point='mnist.py',
                     instance_count=2,
                     instance_type='ml.c4.xlarge',
                     use_spot_instances=True,
-                    max_wait=3600,
+                    max_wait=24*60*60,
                     metric_definitions=metric_definitions,
                     hyperparameters={
                         'epochs': 1,
