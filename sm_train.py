@@ -32,7 +32,7 @@ estimator = PyTorch(entry_point='mnist.py',
                     max_wait=24*60*60,
                     metric_definitions=metric_definitions,
                     hyperparameters={
-                        'epochs': 10,
+                        'epochs': 100,
                         'backend': 'gloo'
                     })
 
